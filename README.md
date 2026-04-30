@@ -11,7 +11,7 @@ This project is a multi-page website representing a modern jewelry store. Develo
 
 ## 📸 ScreenShots
 
-![Home Page](homepage-ss.png)
+![Home Page](images/homepage-ss.png)
 
 ## 🔍 PAGES
 
@@ -65,8 +65,8 @@ This project is a multi-page website representing a modern jewelry store. Develo
 ├── contact.html
 ├── style.css
 ├── script.js
-├── icons/...
-├── products/... (product images)
+├── videos/...
+├── images/... (product and icon images)
 
 ```
 

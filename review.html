@@ -13,7 +13,7 @@
         <!-- custom css file link -->
         <link rel="stylesheet" href="style.css">
         
-<link rel="icon" type="image/png" href="icons/icon.jpg" sizes="64x64">
+<link rel="icon" type="image/png" href="images/icons/icon.jpg" sizes="64x64">
 
     </head>
     <body>
@@ -52,7 +52,7 @@
                     </div>
                     <p>These are awesome! I'll buy any jewelry from here.</p>
                     <div class="user">
-                        <img src="icons\pp1.jpg" alt="">
+                        <img src="images/icons/pp1.jpg" alt="">
                         <div class="user-info">
                             <h3>Şükrü</h3>
                             <span>happy customer</span>
@@ -71,7 +71,7 @@
                     </div>
                     <p>I will recommend this jeweler to everyone!!</p>
                     <div class="user">
-                        <img src="icons\pp2.jpg" alt="">
+                        <img src="images/icons/pp2.jpg" alt="">
                         <div class="user-info">
                             <h3>Lokum</h3>
                             <span>happy customer</span>
@@ -90,7 +90,7 @@
                     </div>
                     <p>It's absolutely as it seems, so amazing!!!</p>
                     <div class="user">
-                        <img src="icons\pp3.jpg" alt="">
+                        <img src="images/icons/pp3.jpg" alt="">
                         <div class="user-info">
                             <h3>Nisan</h3>
                             <span>happy customer</span>
@@ -116,8 +116,8 @@
                 <div class="box">
                     <h3>extra links</h3>
                     <a href="#">my account</a>
-                    <a href="#">my order</a>
-                    <a href="#">my favorite</a>
+                    <a href="#" class="footer-order-btn">my order</a>
+                    <a href="#" class="footer-fav-btn">my favorite</a>
                 </div>
 
                 <div class="box">
@@ -138,6 +138,31 @@
 
             <div class="credit">created by <span>3456..</span> | all rights reserved</div>
         </section>
+
+        <!-- CART MODAL SECTION -->
+        <div class="cart-modal">
+            <div class="cart-content">
+                <span class="close-cart">&times;</span>
+                <h2>Your Cart</h2>
+                <div class="cart-items">
+                </div>
+                <div class="cart-footer">
+                    <div class="cart-total">Total: <span>0.00</span></div>
+                    <button class="checkout-btn">Checkout</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAVORITES (WISHLIST) MODAL -->
+       <div class="wishlist-modal">
+            <div class="wishlist-content">
+                <span class="close-wishlist">&times;</span>
+                <h2>My Favorites</h2>
+                <div class="wishlist-items">
+                    <p style="text-align: center; margin-top: 20px;">You don't have any favorite products yet.</p>
+                </div>
+            </div>
+        </div>        
 
 <script src="script.js"></script>
 

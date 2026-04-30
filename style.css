@@ -109,14 +109,14 @@ header .icons a:hover {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url('home-background.jpg') no-repeat center center;
+    background: url('images/home-background.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
 }
 
 @media (max-width: 1000px) {
     .home {
-        background: url('home-background.jpg') no-repeat center center;
+        background: url('images/home-background.jpg') no-repeat center center;
         background-size: cover;
     }
 }
@@ -986,4 +986,50 @@ header .icons a:hover {
 
 .extra-cart-widget {
     display: none !important;
+}
+
+/* --- WISHLIST MODAL  --- */
+
+.wishlist-modal {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 1000; 
+    justify-content: center;
+    align-items: center;
+}
+
+.wishlist-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.wishlist-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.close-wishlist {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.close-wishlist:hover {
+    color: #e84393; 
 }
