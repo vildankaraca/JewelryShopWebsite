@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latest Products</title>
+
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- custom css file link -->
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="icon" type="image/png" href="icons/icon.jpg" sizes="64x64">
+
+    </head>
+    <body>
+       
+           <!-- Header section -->
+        <header>
+  
+            <a href="#" class="logo">jewelry<span>.</span></a>
+
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="about.html">about</a>
+                <a href="products.html">products</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+            </nav>
+
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-user"></a>
+            </div>
+        </header>
+
+
+  
+<!-- Bootstrap Carousel -->
+<div id="jewelryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">  
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="isiltini-yansit.jpg" class="d-block w-100" alt="Takı 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Newest Jewelry</h5>
+        <p>Reflect your shine</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="altin-koleksiyonu.jpg" class="d-block w-100" alt="Takı 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Gold Collection</h5>
+        <p>The essence of elegance</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="gold and silver.jpg" class="d-block w-100" alt="Takı 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Gold & Silver</h5>
+        <p>Luxury crafted in gold and silver tones</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#jewelryCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Geri</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#jewelryCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">İleri</span>
+  </button>
+</div>
+
+        
+<!-- Products section -->
+<section class="products" id="products">
+    <h1 class="heading">latest <span>products</span></h1>
+    
+  <!-- Filter Buttons -->
+    <div class="filter-options">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="bracelet">Bracelets</button>
+        <button class="filter-btn" data-filter="earring">Earrings</button>
+        <button class="filter-btn" data-filter="necklace">Necklaces</button>
+        <button class="filter-btn" data-filter="ring">Rings</button>
+    </div>
+
+    <div class="box-container">
+       
+        <!-- BRACELET 1 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (1).jpg" alt="Classic Leather Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Classic Leather Bracelet</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 2 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-25%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (2).jpg" alt="Pearl Accent Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Pearl Accent Bracelet</h3>
+        <div class="price">750TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 3 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (3).jpg" alt="Rose Gold Bangle">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Rose Gold Bangle</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 5 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (5).jpg" alt="Silver Infinity Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Infinity Bracelet</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 6 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (6).jpg" alt="Gold Link Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Link Bracelet</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 7 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (7).jpg" alt="Dual Tone Cuff">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Dual Tone Cuff</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 8 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (8).jpg" alt="Gemstone Bead Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gemstone Bead Bracelet</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 9 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-25%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (9).jpg" alt="Tennis Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Tennis Bracelet</h3>
+        <div class="price">750TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 10 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (10).jpg" alt="Leather Wrap Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Leather Wrap Bracelet</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 11 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (11).jpg" alt="Charm Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Charm Bracelet</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+
+<!-- BRACELET 12 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (12).jpg" alt="Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Charm Bracelet</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 13 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (13).jpg" alt="Beaded Anklet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Beaded Anklet</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 14 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelets (14).jpg" alt="Crystal Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Crystal Bracelet</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+          
+<!-- BRACELET 15 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\bracelets\bracelet (15).webp" alt="Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Crystal Bracelet</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- BRACELET 16 -->
+<div class="box" data-category="bracelet">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products/bracelets/bracelet (16).webp" alt="Gold Plated Chain Bracelet">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Plated Chain Bracelet</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+   
+
+<!-- EARRING 1 -->
+<div class="box" data-category="earring">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\earrings\earring (1).jpg" alt="Gold Hoop Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Hoop Earrings</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 2 -->
+<div class="box" data-category="earring">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\earrings\earring (2).jpg" alt="Silver Stud Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Stud Earrings</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 3 -->
+<div class="box" data-category="earring">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\earrings\earring (3).jpg" alt="Rose Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3> Rose Earrings</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 4 -->
+<div class="box" data-category="earring">
+    <span class="discount">-25%</span>
+    <div class="image">
+        <img src="products\earrings\earring (4).jpg" alt="Diamond Cluster Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Diamond Cluster Earrings</h3>
+        <div class="price">750TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 5 -->
+<div class="box" data-category="earring">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\earrings\earring (5).jpg" alt="Rose Gold Huggie Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Rose Gold Huggie Earrings</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 6 -->
+<div class="box" data-category="earring">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\earrings\earring (6).jpg" alt="Silver Hoop Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Hoop Earrings</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 7 -->
+<div class="box" data-category="earring">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\earrings\earring (7).jpg" alt="Gold Stud Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Stud Earrings</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 8 -->
+<div class="box" data-category="earring">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\earrings\earring (8).jpg" alt="Dangle Crystal Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Dangle Crystal Earrings</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 9 -->
+<div class="box" data-category="earring">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\earrings\earring (9).jpg" alt="Gemstone Drop Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gemstone Drop Earrings</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 10 -->
+<div class="box" data-category="earring">
+    <span class="discount">-25%</span>
+    <div class="image">
+        <img src="products\earrings\earring (10).jpg" alt="Minimalist Gold Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Minimalist Gold Earrings</h3>
+        <div class="price">750TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 11 -->
+<div class="box" data-category="earring">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\earrings\earring (11).jpg" alt="Silver Leaf Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Leaf Earrings</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 12 -->
+<div class="box" data-category="earring">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\earrings\earring (12).jpg" alt="Chandelier Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Chandelier Earrings</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 13 -->
+<div class="box" data-category="earring">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\earrings\earring (13).jpg" alt="Hoop with Charm Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Hoop with Charm Earrings</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 14 -->
+<div class="box" data-category="earring">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\earrings\earring (14).jpg" alt="Crystal Stud Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Crystal Stud Earrings</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- EARRING 15 -->
+<div class="box" data-category="earring">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\earrings\earring (15).jpg" alt="Gold Threader Earrings">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Threader Earrings</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 1 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (1).jpg" alt="Gold Pendant Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Pendant Necklace</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 2 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (2).jpg" alt="Silver Chain Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Chain Necklace</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 3 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (3).jpg" alt="Pearl Strand Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Pearl Strand Necklace</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 4 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-25%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (4).jpg" alt="Diamond Solitaire Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Diamond Solitaire Necklace</h3>
+        <div class="price">750TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 5 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (5).jpg" alt="Rose Gold Choker">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Rose Gold Choker</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 6 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (6).jpg" alt="Silver Lariat Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Lariat Necklace</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 7 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (7).jpg" alt="Gold Coin Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Coin Necklace</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 8 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (8).jpg" alt="Crystal Pendant Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Crystal Pendant Necklace</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 9 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (9).jpg" alt="Gemstone Choker">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gemstone Choker</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 10 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-25%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (10).jpg" alt="Layered Chain Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Layered Chain Necklace</h3>
+        <div class="price">750TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 11 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (11).jpg" alt="Silver Bar Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Bar Necklace</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 12 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (12).jpg" alt="Gold Name Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Name Necklace</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 13 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (13).jpg" alt="Diamond Halo Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Diamond Halo Necklace</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 14 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (14).jpg" alt="Pearl Choker Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Pearl Choker Necklace</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- NECKLACE 15 -->
+<div class="box" data-category="necklace">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\necklaces\necklaces (15).jpg" alt="Gold Layered Necklace">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Layered Necklace</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+
+<!-- RING 1 -->
+<div class="box" data-category="ring">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\rings\ring (1).jpg" alt="Gold Diamond Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Diamond Ring</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 2 -->
+<div class="box" data-category="ring">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\rings\ring (2).jpg" alt="Silver Band Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Band Ring</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 3 -->
+<div class="box" data-category="ring">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\rings\ring (3).jpg" alt="Rose Gold Stackable Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Rose Gold Stackable Ring</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 4 -->
+<div class="box" data-category="ring">
+    <span class="discount">-25%</span>
+    <div class="image">
+        <img src="products\rings\ring (4).jpg" alt="Gemstone Cocktail Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gemstone Cocktail Ring</h3>
+        <div class="price">750TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 5 -->
+<div class="box" data-category="ring">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\rings\ring (5).jpg" alt="Gold Signet Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Signet Ring</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 6 -->
+<div class="box" data-category="ring">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\rings\ring (6).jpg" alt="Silver Solitaire Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Solitaire Ring</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 7 -->
+<div class="box" data-category="ring">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\rings\ring (7).jpg" alt="Diamond Eternity Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Diamond Eternity Ring</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 8 -->
+<div class="box" data-category="ring">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\rings\ring (8).jpg" alt="Gold Knuckle Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Knuckle Ring</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 9 -->
+<div class="box" data-category="ring">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\rings\ring (9).jpg" alt="Pearl Statement Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Pearl Statement Ring</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 10 -->
+<div class="box" data-category="ring">
+    <span class="discount">-25%</span>
+    <div class="image">
+        <img src="products\rings\ring (10).jpg" alt="Silver Cluster Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Cluster Ring</h3>
+        <div class="price">750TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 11 -->
+<div class="box" data-category="ring">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\rings\ring (11).jpg" alt="Gold Wedding Band">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Wedding Band</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 12 -->
+<div class="box" data-category="ring">
+    <span class="discount">-30%</span>
+    <div class="image">
+        <img src="products\rings\ring (12).jpg" alt="Diamond Trilogy Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Diamond Trilogy Ring</h3>
+        <div class="price">700TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 13 -->
+<div class="box" data-category="ring">
+    <span class="discount">-15%</span>
+    <div class="image">
+        <img src="products\rings\ring (13).jpg" alt="Rose Gold Promise Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Rose Gold Promise Ring</h3>
+        <div class="price">850TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 14 -->
+<div class="box" data-category="ring">
+    <span class="discount">-20%</span>
+    <div class="image">
+        <img src="products\rings\ring (14).jpg" alt="Silver Celtic Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Silver Celtic Ring</h3>
+        <div class="price">800TL <span>1000TL</span></div>
+    </div>
+</div>
+
+<!-- RING 15 -->
+<div class="box" data-category="ring">
+    <span class="discount">-10%</span>
+    <div class="image">
+        <img src="products\rings\ring (15).jpg" alt="Gold Stacking Ring">
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <div class="quantity">
+                <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                <input type="number" class="qty-input" value="1" min="1">
+                <button class="qty-plus"><i class="fas fa-plus"></i></button>
+            </div>
+            <button class="cart-btn">Add to Cart</button>
+            <a href="#" class="fas fa-share"></a>
+        </div>
+    </div>
+    <div class="content">
+        <h3>Gold Stacking Ring</h3>
+        <div class="price">900TL <span>1000TL</span></div>
+    </div>
+</div>
+
+    </div>
+</section>
+
+<!-- Cart Modal -->
+<div class="cart-modal">
+    <div class="cart-content">
+        <span class="close-cart">&times;</span>
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-total">
+            <h3>Total: <span>0TL</span></h3>
+            <a href="#" class="btn checkout-btn">Checkout</a>
+        </div>
+    </div>
+</div>
+
+
+
+         <!-- Footer section -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="home.html">home</a>
+                    <a href="about.html">about</a>
+                    <a href="products.html">products</a>
+                    <a href="review.html">review</a>
+                    <a href="contact.html">contact</a>
+                </div>
+
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#">my account</a>
+                    <a href="#">my order</a>
+                    <a href="#">my favorite</a>
+                </div>
+
+                <div class="box">
+                    <h3>locations</h3>
+                    <a href="#">Ankara</a>
+                    <a href="#">Istanbul</a>
+                    <a href="#">Kocaeli</a>
+                    <a href="#">Sakarya</a>
+                    <a href="#">Bursa</a>
+                </div>
+
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#">+90 545 545 54 54</a>
+                    <a href="#">example@gmail.com</a>
+                    <a href="#">Sakarya, Adapazari, 54100</a>
+                </div>
+            </div>
+
+            <div class="credit">created by <span>3456..</span> | all rights reserved</div>
+        </section>
+
+<script src="script.js"></script>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
