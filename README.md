@@ -1,7 +1,7 @@
+## VİLDAN KARACA     B231202027
+## RANA İREM ÖZEN    B241202002
 ## AYŞENUR YILMAZ    B231202019
 ## ELİF GÜL ARSLAN   B231202061
-## RANA İREM ÖZEN    B241202002
-## VİLDAN KARACA     B231202027
 
 All team members actively participated in every stage of the project — from ideation and design to coding and testing. The work was completed with shared responsibility and mutual support across all tasks including HTML/CSS structure, JavaScript functionality, UI/UX design, and documentation.
 
